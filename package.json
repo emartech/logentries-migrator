@@ -1,0 +1,18 @@
+{
+  "name": "logentries-migrator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1",
+    "superagent": "^1.6.1",
+    "yargs": "^3.31.0"
+  }
+}
