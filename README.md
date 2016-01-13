@@ -21,10 +21,9 @@ Options:
 ```
 
 ### Import tags and alerts to an account
+```migrator import --account_key 11111111-2222-3333-4444-555555555555 --target_account_key 91111111-2222-3333-4444-555555555555 --log_set 'Sample logset' --log 'Sample logs' --alert_emails 'sample@sample.com' --alert_rate_count 11 --alert_rate_range 'hour' --alert_limit_count 22 --alert_limit_range 'hour' --output 'backup.json'```
 
 ```bash
-Usage: migrator import --account_key 11111111-2222-3333-4444-555555555555 --target_account_key 91111111-2222-3333-4444-555555555555 --log_set 'Sample logset' --log 'Sample logs' --alert_emails 'sample@sample.com' --alert_rate_count 11 --alert_rate_range 'hour' --alert_limit_count 22 --alert_limit_range 'hour' --output 'backup.json'
-
 Options:
   --account_key         Account key to get the data from. This or the input
                         argument should be provided!
@@ -39,11 +38,10 @@ Options:
                         instead of the exported one. It could contain multiple
                         emails, eg. 'sample@sample.com,sample2@sample.com'
   --alert_rate_count    Override the exported alert rate count
-  --alert_rate_range    Override the exported alert rate range
-                                                        [choices: "day", "hour"]
+  --alert_rate_range    Override the exported alert rate range [choices: "day", "hour"]
   --alert_limit_count   Override the exported alert limit count
-  --alert_limit_range   Override the exported alert limit range
-                                                        [choices: "day", "hour"]
+  --alert_limit_range   Override the exported alert limit range [choices: "day", "hour"]
 ```
 
+###
 
