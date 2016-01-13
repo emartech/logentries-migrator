@@ -2,7 +2,7 @@
 Import-export tags and alerts from a Logentries account to an other.
 
 ## Usage
-The migrator requires a working `NodeJS > 4` environment and an NPM install.
+The migrator requires a working `NodeJS >= 4` environment and an NPM install.
 
 ```bash
 npm install
