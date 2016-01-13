@@ -766,7 +766,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -805,7 +805,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -825,7 +825,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -845,7 +845,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -865,7 +865,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -885,7 +885,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -943,7 +943,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -963,7 +963,7 @@
       "limit_count": 0,
       "limit_range": "day",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1059,7 +1059,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1079,7 +1079,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1118,7 +1118,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1157,7 +1157,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1177,7 +1177,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1197,7 +1197,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1274,7 +1274,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1370,7 +1370,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1390,7 +1390,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1410,7 +1410,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1430,7 +1430,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1450,7 +1450,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1470,7 +1470,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1566,7 +1566,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1586,7 +1586,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1644,7 +1644,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1664,7 +1664,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1684,7 +1684,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },
@@ -1704,7 +1704,7 @@
       "limit_count": 3,
       "limit_range": "hour",
       "args": {
-        "direct": "CHANGE_THIS_EMAIL@emarsys.com",
+        "direct": "CHANGE_THIS_EMAIL@TO_SOMETHING.COM",
         "teams": "",
         "users": ""
       },

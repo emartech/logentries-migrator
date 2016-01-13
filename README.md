@@ -50,5 +50,6 @@ You can import alerts and tags from an account directly or from a previously sav
 ```
 
 ### Import default Heroku tags & alerts
+For a new Heroku app it's good to have predefined alerts and tags for the Heroku error codes. You can find a `heroku-defaults.json` in the repository root which contains default settings for all of these. If you are importing these defaults make sure that you provided an email address otherwise there will be e-mail alerts to a not existing mailbox.   
 
 ```migrator import --input heroku-defaults.json --alert_emails "EMAIL_FOR_ALERTS" --log_set "YOUR_LOG_SET" --target_account_key YOUR_ACCOUNT_ID```
