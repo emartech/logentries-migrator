@@ -9,8 +9,7 @@ npm install
 chmod +x ./migrator
 ```
 
-You can find 
-
+All migration commands need an account id which you can find in the Logentries UI *Account settings / Profile / Account key*. 
 
 ### Export
 You can export alerts and tags from an account in `json` format. It could be used as a backup or a source for importing later.
