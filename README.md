@@ -10,6 +10,7 @@ Import-export tags and alerts from a Logentries account to an other.
 - change alert rate and report settings on import
 - attach tags and alerts to a log or to a whole logset
 - prevent tag duplication (if there is one with the same name)
+- bundled with default alert and log settings for Heroku
 
 ## Usage
 The migrator requires a working `NodeJS >= 4` environment and an NPM install.
