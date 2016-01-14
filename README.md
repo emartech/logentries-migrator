@@ -6,7 +6,7 @@ Import-export tags and alerts from a Logentries account to an other.
 - export tags and alerts from an account into a file
 - import tags and alerts into an account from a file or an other account
 - skip the demo tags
-- change alerts target emails on import
+- change alert target emails on import
 - change alert rate and report settings on import
 - attach tags and alerts to a log or to a whole logset
 - prevent tag duplication (if there is one with the same name)
