@@ -15,7 +15,7 @@ var argv = require('yargs')
     .usage('Usage: $0 <command> [options]')
     .command('export', 'Get tags and alerts from a Logentries account', (yargs) => {
       argv = yargs
-        .usage(`Usage: $0 export --account_key 11111111-2222-3333-4444-555555555555 --output 'output.json'`)
+        .usage(`Usage: $0 export --account_key 123-asd-345 --output 'output.json'`)
         .option('account_key', {
           demand: true,
           description: 'Account key to get the data from'
@@ -29,7 +29,7 @@ var argv = require('yargs')
     })
     .command('import', 'Import tags and alerts into a Logentries account', (yargs) => {
       argv = yargs
-        .usage(`Usage: $0 import --account_key 11111111-2222-3333-4444-555555555555 --target_account_key 91111111-2222-3333-4444-555555555555 --log_set 'Sample logset' --log 'Sample logs' --alert_emails 'sample@sample.com' --alert_rate_count 11 --alert_rate_range 'hour' --alert_limit_count 22 --alert_limit_range 'hour' --output 'backup.json'`)
+        .usage(`Usage: $0 import --account_key 123-asd-345 --target_account_key 234-bda-543 --log_set 'Sample logset' --log 'Sample logs' --alert_emails 'sample@sample.com' --alert_rate_count 11 --alert_rate_range 'hour' --alert_limit_count 22 --alert_limit_range 'hour' --output 'backup.json'`)
         .option('account_key', {
           description: 'Account key to get the data from. This or the input argument should be provided!'
         })

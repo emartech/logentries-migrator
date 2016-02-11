@@ -16,8 +16,7 @@ Import-export tags and alerts from a Logentries account to an other.
 The migrator requires a working `NodeJS >= 4` environment and an NPM install.
 
 ```bash
-npm install
-chmod +x ./migrator
+npm install -g logentries-migrator
 ```
 
 All migration commands need an account id which you can find in the Logentries UI *Account settings / Profile / Account key*. 
@@ -27,7 +26,7 @@ To migrate a Logentries account from Heroku you could use [this guide](https://g
 ### Export
 You can export alerts and tags from an account in `json` format. It could be used as a backup or a source for importing later.
 
-`migrator export --account_key 11111111-2222-3333-4444-555555555555 --output output.json`
+`logentries-migrator export --account_key 11111111-2222-3333-4444-555555555555 --output output.json`
 
 #### Arguments
 ```bash
@@ -39,7 +38,7 @@ You can export alerts and tags from an account in `json` format. It could be use
 ### Import
 You can import alerts and tags from an account directly or from a previously saved `json` file. You can also save the exported settings to a file without using the `export` command explicitly.
 
-`migrator import --account_key 11111111-2222-3333-4444-555555555555 --target_account_key 91111111-2222-3333-4444-555555555555 --log_set 'Sample logset' --log 'Sample logs' --alert_emails 'sample@sample.com' --alert_rate_count 11 --alert_rate_range 'hour' --alert_limit_count 22 --alert_limit_range 'hour' --output 'backup.json'`
+`logentries-migrator import --account_key 11111111-2222-3333-4444-555555555555 --target_account_key 91111111-2222-3333-4444-555555555555 --log_set 'Sample logset' --log 'Sample logs' --alert_emails 'sample@sample.com' --alert_rate_count 11 --alert_rate_range 'hour' --alert_limit_count 22 --alert_limit_range 'hour' --output 'backup.json'`
 
 #### Arguments
 
@@ -65,4 +64,4 @@ You can import alerts and tags from an account directly or from a previously sav
 ### Import default Heroku tags & alerts
 For a new Heroku app it's good to have predefined alerts and tags for the Heroku error codes. You can find a `heroku-defaults.json` in the repository root which contains default settings for all of these. If you are importing these defaults make sure that you provided an email address otherwise there will be e-mail alerts to a not existing mailbox.   
 
-```migrator import --input heroku-defaults.json --alert_emails "EMAIL_FOR_ALERTS" --log_set "YOUR_LOG_SET" --target_account_key YOUR_ACCOUNT_ID```
+```logentries-migrator import --input heroku-defaults.json --alert_emails "EMAIL_FOR_ALERTS" --log_set "YOUR_LOG_SET" --target_account_key YOUR_ACCOUNT_ID```
