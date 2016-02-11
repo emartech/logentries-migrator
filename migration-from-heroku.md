@@ -3,6 +3,8 @@
 ### 1. Creating Logs on the dedicated account
 You should create a new Logset and the new logs in the dedicated account. In the migration process you could move the settings of an existing logentries account to multiple logs in the new account. Usually we create a Logset with the name of the related service, a log with the same name in it and another with the `Staging` postfix for the staging environment.
 
+To migrate from Heroku you should use *Manual* type of log sending.
+
 Fill out the log creation form with the following:
 - *Log entries are sent via:* Plain TCP, UDP
 - *Retain log entries for:* Default time period
