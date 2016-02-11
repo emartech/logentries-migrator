@@ -21,6 +21,7 @@ chmod +x ./migrator
 ```
 
 All migration commands need an account id which you can find in the Logentries UI *Account settings / Profile / Account key*. 
+To migrate a Logentries account from Heroku you could use [this guide](https://github.com/emartech/logentries-migrator/blob/master/migration-from-heroku.md).
 
 ### Export
 You can export alerts and tags from an account in `json` format. It could be used as a backup or a source for importing later.
