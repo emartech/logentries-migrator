@@ -1,6 +1,6 @@
 {
   "name": "logentries-migrator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Import-export tags and alerts from Logentries",
   "main": "index.js",
   "bin": "bin/logentries-migrator",
