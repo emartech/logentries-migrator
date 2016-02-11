@@ -24,18 +24,20 @@ heroku drains:add syslog+tls://api.logentries.com:22345 --app your-heroku-applic
 You should create a log for the other environments as well, like the staging. If the service environments are successfully bound to the LE account you should see the logs coming.
 
 ### 3. Migrate tags and alerts from the old account
-Use the migration tool to get the settings from the old account. For the migration you have to know the account keys which you can find on the Account/Profile page and under the Notifications.
+Use the migration tool to get the settings from the old account. For the migration you have to know the account keys which you can find on the Account/Profile page and under the Notifications. 
+
+It's advised to save a backup from the old account while migrating using the `--output` parameter.
 
 You could redefine here all of the alert settings, eg. it's a good place to change the email targets and the alert limits.
 
-**To migrate a Heroku alert configuration to all of the logs of a Logset**
+**To migrate a Heroku alert configuration to all of the logs of a Logset with backup**
 ```bash
-logentries-migrator import --account-key 123-33d-213sf --target_account_key 245b74-h69x-435 --log_set "My Service"
+logentries-migrator import --account-key 123-33d-213sf --target_account_key 245b74-h69x-435 --log_set "My Service" --output "logentries_my_service_backup.json"
 ```
 
 **To migrate a default Heroku alert configuration to all of the logs of a Logset with a more sense alert rate**
 ```bash
-logentries-migrator import --input heroku-defaults.json --alert_emails "your-team@your-company.com" --log_set "My Service" --target_account_key 23v45b74-h69x-4375 --alert_limit_count 3 --alert_limit_range "hour"
+logentries-migrator import --input heroku-defaults.json --alert_emails "your-team@your-company.com" --log_set "My Service" --target_account_key 23v45b74-h69x-4375 --alert_limit_count 6 --alert_limit_range "hour" --output "logentries_my_service_backup.json"
 ```
 
 You could find other migration settings in the [readme](https://github.com/emartech/logentries-migrator/blob/master/README.md).
