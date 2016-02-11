@@ -1,19 +1,26 @@
 {
   "name": "logentries-migrator",
   "version": "1.1.0",
-  "description": "",
+  "description": "Import-export tags and alerts from Logentries",
   "main": "index.js",
   "bin": "bin/logentries-migrator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Emarsys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emartech/logentries-migrator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emartech/logentries-migrator.git"
+  },
   "dependencies": {
-    "co": "^4.6.0",
-    "debug": "^2.2.0",
-    "lodash": "^3.10.1",
-    "superagent": "^1.6.1",
-    "yargs": "^3.31.0"
+    "co": "4.6.0",
+    "debug": "2.2.0",
+    "lodash": "3.10.1",
+    "superagent": "1.6.1",
+    "yargs": "3.31.0"
   }
 }
