@@ -30,9 +30,9 @@ You can export alerts and tags from an account in `json` format. It could be use
 
 #### Arguments
 ```bash
---account_key  Account key to get the data from                     [required]
---output       Filename to export the data                          [required]
---help         Show help                                             [boolean]
+--account_key  Account key to get the data from [required]
+--output       Filename to export the data      [required]
+--help         Show help
 ```
 
 ### Import
@@ -48,7 +48,7 @@ You can import alerts and tags from an account directly or from a previously sav
 --output              Filename to dump the exported data to later use
 --input               Filename for import the data from. This or the
                       account_key argument should be provided!
---target_account_key  The account key to import the data            [required]
+--target_account_key  The account key to import the data [required]
 --log_set             Add the alerts to the logs of the specified log set
 --log                 Add the alerts to a log. The log_set argument should be
                       provided to use this option!
