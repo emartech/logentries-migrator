@@ -34,7 +34,7 @@ You could redefine here all of the alert settings, eg. it's a good place to chan
 
 **To migrate a Heroku alert configuration to all of the logs of a Logset with backup**
 ```bash
-logentries-migrator import --account-key 123-33d-213sf --target_account_key 245b74-h69x-435 --log_set "My Service" --output "logentries_my_service_backup.json"
+logentries-migrator import --account_key 123-33d-213sf --target_account_key 245b74-h69x-435 --log_set "My Service" --output "logentries_my_service_backup.json"
 ```
 
 **To migrate a default Heroku alert configuration to all of the logs of a Logset with a more sense alert rate**
