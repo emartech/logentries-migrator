@@ -12,6 +12,8 @@ Fill out the log creation form with the following:
 
 After the creation you'll get the port and a suggested api endpoint for the log drain. The only important thing to remember is the port so save it somewhere.
 
+**Important:** you have to click on the finish button, it's not enough to get the log path and port and then leave the page!
+
 ### 2. Add log drains
 To bind the dedicated account to the service's log drain you should use the [Heroku toolbelt](https://toolbelt.heroku.com/)'s `drains:add` command.
 
