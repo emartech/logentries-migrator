@@ -6,23 +6,21 @@ You should create a new Logset and the new logs in the dedicated account. In the
 To migrate from Heroku you should use *Manual* type of log sending.
 
 Fill out the log creation form with the following:
-- *Log entries are sent via:* Plain TCP, UDP
+- *Log entries are sent via:* Token TCP - logs are identified by a token.
 - *Retain log entries for:* Default time period
 - *Log type is:* heroku
 
-After the creation you'll get the port and a suggested api endpoint for the log drain. The only important thing to remember is the port so save it somewhere.
+After the creation you'll get the token which can be used for binding the Logentries using a Heroku log drain. You can find this token later on the *Log Host* page (click to the small list icon after hovering a host).
 
-**Important:** you have to click on the finish button, it's not enough to get the log path and port and then leave the page!
+**Important:** you have to click on the finish button, it's not enough to get the token!
 
 ### 2. Add log drains
 To bind the dedicated account to the service's log drain you should use the [Heroku toolbelt](https://toolbelt.heroku.com/)'s `drains:add` command.
 
-The log drain should be added to the `api.logentries.com` server (not the one provided by the log creation page!) and to use TLS encryption you should replace the first number in the port to 2!
-
-So if you got `12345` in the log creation page then you should run the following command:
+So if you got the token `*TOKEN*` in the log creation page then you should run the following command:
 
 ```bash
-heroku drains:add syslog+tls://api.logentries.com:22345 --app your-heroku-application-name
+heroku drains:add https://heroku.logentries.com/v1/drain/*TOKEN* --app your-heroku-application-name
 ```
 
 You should create a log for the other environments as well, like the staging. If the service environments are successfully bound to the LE account you should see the logs coming.
