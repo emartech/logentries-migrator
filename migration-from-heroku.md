@@ -25,6 +25,8 @@ heroku drains:add https://heroku.logentries.com/v1/drain/*TOKEN* --app your-hero
 
 You should create a log for the other environments as well, like the staging. If the service environments are successfully bound to the LE account you should see the logs coming.
 
+You could find additional informations about the Heroku - Logentries integration in the [Logentries docs](https://logentries.com/doc/heroku/#syslog_drain).
+
 ### 3. Migrate tags and alerts from the old account
 Use the migration tool to get the settings from the old account. For the migration you have to know the account keys which you can find on the Account/Profile page and under the Notifications. 
 
